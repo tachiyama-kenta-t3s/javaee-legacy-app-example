@@ -12,7 +12,9 @@
 		<p/>
 	    <a href="../jaas/logoff.jsp">Sair</a>   
 		<p/>
-	    <a href="../index.jsp">Voltar</a>   
+	    <a href="../index.jsp">Voltar</a>
+        <p/>
+        <a href="/app-web/WebRoot/secure/helloworld.jsp">HelloWorld画面へ</a>
 	</div>
 </body>
 </html>

@@ -28,4 +28,12 @@ public class RegisterAction extends Action {
 		return (mapping.findForward("success"));
 	}
 
+	@Override
+	public ActionForward execute2(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		
+		System.out.println(value);
+		
+		return (mapping.findForward("success"));
+	}
+
 }
